@@ -1,3 +1,5 @@
+using UnityEditorInternal;
+
 namespace TEST.Player
 {
     // Walks to the assigned mine. The arrival is a transition condition declared in Worker.
@@ -12,6 +14,7 @@ namespace TEST.Player
 
         public void Enter()
         {
+            
         }
 
         public void Tick(float deltaTime)
